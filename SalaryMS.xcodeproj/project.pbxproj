@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414DFA2424ED491400B40228 /* YGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414DFA2224ED491300B40228 /* YGViewController.xib */; };
+		414DFA2624ED494100B40228 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414DFA2524ED494100B40228 /* CustomCell.xib */; };
+		414DFA4324ED551A00B40228 /* YGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414DFA4224ED551A00B40228 /* YGViewController.m */; };
+		414DFA4924ED7E8300B40228 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 414DFA4624ED7E8300B40228 /* ListCell.m */; };
+		414DFA4A24ED7E8300B40228 /* ListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 414DFA4724ED7E8300B40228 /* ListView.m */; };
+		414ECB8F24EF54F200AF1A54 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 414ECB8E24EF54F200AF1A54 /* libsqlite3.0.tbd */; };
+		414ECB9124EF550000AF1A54 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 414ECB9024EF550000AF1A54 /* libsqlite3.tbd */; };
+		419375C42500BA8B0062A282 /* ModifyPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 419375C32500BA8B0062A282 /* ModifyPasswordViewController.m */; };
 		41BD02BC24EA3CC90003CD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02BB24EA3CC90003CD18 /* AppDelegate.m */; };
 		41BD02BF24EA3CC90003CD18 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02BE24EA3CC90003CD18 /* SceneDelegate.m */; };
 		41BD02C224EA3CC90003CD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02C124EA3CC90003CD18 /* ViewController.m */; };
@@ -17,6 +25,13 @@
 		41BD02D024EA3CCA0003CD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02CF24EA3CCA0003CD18 /* main.m */; };
 		41BD02DA24EA3CCB0003CD18 /* SalaryMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02D924EA3CCB0003CD18 /* SalaryMSTests.m */; };
 		41BD02E524EA3CCB0003CD18 /* SalaryMSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02E424EA3CCB0003CD18 /* SalaryMSUITests.m */; };
+		41BD02F724EA675A0003CD18 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02F624EA675A0003CD18 /* TabBarViewController.m */; };
+		41BD02FA24EA68320003CD18 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02F924EA68320003CD18 /* PersonViewController.m */; };
+		41BD02FD24EA68530003CD18 /* SalaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02FC24EA68530003CD18 /* SalaryViewController.m */; };
+		41BD030124EAAEF10003CD18 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD030024EAAEF10003CD18 /* RegisterViewController.m */; };
+		41BD030624EACC660003CD18 /* SalaryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD030524EACC660003CD18 /* SalaryDetailViewController.m */; };
+		41BD030924EACCD30003CD18 /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD030824EACCD30003CD18 /* PersonalInfoViewController.m */; };
+		41D21AF724FD67BF0040F805 /* ModificationInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D21AF624FD67BE0040F805 /* ModificationInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		414DFA2324ED491300B40228 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../../../../Desktop/CustomTableViewCell/CustomTableViewCell/en.lproj/YGViewController.xib; sourceTree = "<group>"; };
+		414DFA2524ED494100B40228 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCell.xib; path = ../../../../../Desktop/CustomTableViewCell/CustomCell.xib; sourceTree = "<group>"; };
+		414DFA4124ED551A00B40228 /* YGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YGViewController.h; path = ../../../../../Desktop/CustomTableViewCell/CustomTableViewCell/YGViewController.h; sourceTree = "<group>"; };
+		414DFA4224ED551A00B40228 /* YGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YGViewController.m; path = ../../../../../Desktop/CustomTableViewCell/CustomTableViewCell/YGViewController.m; sourceTree = "<group>"; };
+		414DFA4524ED7E8300B40228 /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListCell.h; path = "../../../../../Downloads/ZCDropDownDemo-master/ZCDropDownDemo/ListCell.h"; sourceTree = "<group>"; };
+		414DFA4624ED7E8300B40228 /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListCell.m; path = "../../../../../Downloads/ZCDropDownDemo-master/ZCDropDownDemo/ListCell.m"; sourceTree = "<group>"; };
+		414DFA4724ED7E8300B40228 /* ListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListView.m; path = "../../../../../Downloads/ZCDropDownDemo-master/ListView.m"; sourceTree = "<group>"; };
+		414DFA4824ED7E8300B40228 /* ListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListView.h; path = "../../../../../Downloads/ZCDropDownDemo-master/ListView.h"; sourceTree = "<group>"; };
+		414ECB8E24EF54F200AF1A54 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		414ECB9024EF550000AF1A54 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		419375C22500BA8B0062A282 /* ModifyPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModifyPasswordViewController.h; sourceTree = "<group>"; };
+		419375C32500BA8B0062A282 /* ModifyPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModifyPasswordViewController.m; sourceTree = "<group>"; };
 		41BD02B724EA3CC90003CD18 /* SalaryMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalaryMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BD02BA24EA3CC90003CD18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41BD02BB24EA3CC90003CD18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +83,20 @@
 		41BD02E024EA3CCB0003CD18 /* SalaryMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalaryMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BD02E424EA3CCB0003CD18 /* SalaryMSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalaryMSUITests.m; sourceTree = "<group>"; };
 		41BD02E624EA3CCB0003CD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BD02F524EA675A0003CD18 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		41BD02F624EA675A0003CD18 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		41BD02F824EA68320003CD18 /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		41BD02F924EA68320003CD18 /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		41BD02FB24EA68530003CD18 /* SalaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalaryViewController.h; sourceTree = "<group>"; };
+		41BD02FC24EA68530003CD18 /* SalaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalaryViewController.m; sourceTree = "<group>"; };
+		41BD02FF24EAAEF10003CD18 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		41BD030024EAAEF10003CD18 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		41BD030424EACC660003CD18 /* SalaryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalaryDetailViewController.h; sourceTree = "<group>"; };
+		41BD030524EACC660003CD18 /* SalaryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalaryDetailViewController.m; sourceTree = "<group>"; };
+		41BD030724EACCD30003CD18 /* PersonalInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
+		41BD030824EACCD30003CD18 /* PersonalInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
+		41D21AF524FD67BE0040F805 /* ModificationInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModificationInfoViewController.h; sourceTree = "<group>"; };
+		41D21AF624FD67BE0040F805 /* ModificationInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModificationInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414ECB9124EF550000AF1A54 /* libsqlite3.tbd in Frameworks */,
+				414ECB8F24EF54F200AF1A54 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +126,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		414DFA4424ED7E5500B40228 /* 自定义下拉框 */ = {
+			isa = PBXGroup;
+			children = (
+				414DFA4524ED7E8300B40228 /* ListCell.h */,
+				414DFA4624ED7E8300B40228 /* ListCell.m */,
+				414DFA4824ED7E8300B40228 /* ListView.h */,
+				414DFA4724ED7E8300B40228 /* ListView.m */,
+			);
+			path = "自定义下拉框";
+			sourceTree = "<group>";
+		};
+		414ECB8D24EF54F200AF1A54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				414ECB9024EF550000AF1A54 /* libsqlite3.tbd */,
+				414ECB8E24EF54F200AF1A54 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		415CBD0024EC146B0094E974 /* 查询 */ = {
+			isa = PBXGroup;
+			children = (
+				414DFA2224ED491300B40228 /* YGViewController.xib */,
+				414DFA4124ED551A00B40228 /* YGViewController.h */,
+				414DFA4224ED551A00B40228 /* YGViewController.m */,
+				414DFA2524ED494100B40228 /* CustomCell.xib */,
+			);
+			path = "查询";
+			sourceTree = "<group>";
+		};
+		419375C12500B11E0062A282 /* 修改密码 */ = {
+			isa = PBXGroup;
+			children = (
+				419375C22500BA8B0062A282 /* ModifyPasswordViewController.h */,
+				419375C32500BA8B0062A282 /* ModifyPasswordViewController.m */,
+			);
+			path = "修改密码";
+			sourceTree = "<group>";
+		};
+		419375C62500EF8A0062A282 /* 个人 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD02F824EA68320003CD18 /* PersonViewController.h */,
+				41BD02F924EA68320003CD18 /* PersonViewController.m */,
+			);
+			path = "个人";
+			sourceTree = "<group>";
+		};
+		419375C72500EFAF0062A282 /* 薪资管理 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD02FB24EA68530003CD18 /* SalaryViewController.h */,
+				41BD02FC24EA68530003CD18 /* SalaryViewController.m */,
+			);
+			path = "薪资管理";
+			sourceTree = "<group>";
+		};
+		419375C92500EFDD0062A282 /* 新增员工 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD030224EACC0B0003CD18 /* 人员信息 */,
+				41BD030324EACC250003CD18 /* 工资详情 */,
+			);
+			path = "新增员工";
+			sourceTree = "<group>";
+		};
 		41BD02AE24EA3CC90003CD18 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +200,7 @@
 				41BD02D824EA3CCB0003CD18 /* SalaryMSTests */,
 				41BD02E324EA3CCB0003CD18 /* SalaryMSUITests */,
 				41BD02B824EA3CC90003CD18 /* Products */,
+				414ECB8D24EF54F200AF1A54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +217,14 @@
 		41BD02B924EA3CC90003CD18 /* SalaryMS */ = {
 			isa = PBXGroup;
 			children = (
+				419375C92500EFDD0062A282 /* 新增员工 */,
+				41D21AF424FD66910040F805 /* 人员信息修改 */,
+				415CBD0024EC146B0094E974 /* 查询 */,
+				414DFA4424ED7E5500B40228 /* 自定义下拉框 */,
+				41BD02FE24EAAEC90003CD18 /* 登陆页面 */,
+				41BD02F424EA66FD0003CD18 /* 薪资管理 */,
+				41BD02F324EA66EE0003CD18 /* 个人 */,
+				41BD02F224EA66AA0003CD18 /* 分栏器 */,
 				41BD02BA24EA3CC90003CD18 /* AppDelegate.h */,
 				41BD02BB24EA3CC90003CD18 /* AppDelegate.m */,
 				41BD02BD24EA3CC90003CD18 /* SceneDelegate.h */,
@@ -138,6 +257,68 @@
 				41BD02E624EA3CCB0003CD18 /* Info.plist */,
 			);
 			path = SalaryMSUITests;
+			sourceTree = "<group>";
+		};
+		41BD02F224EA66AA0003CD18 /* 分栏器 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD02F524EA675A0003CD18 /* TabBarViewController.h */,
+				41BD02F624EA675A0003CD18 /* TabBarViewController.m */,
+			);
+			path = "分栏器";
+			sourceTree = "<group>";
+		};
+		41BD02F324EA66EE0003CD18 /* 个人 */ = {
+			isa = PBXGroup;
+			children = (
+				419375C62500EF8A0062A282 /* 个人 */,
+				419375C12500B11E0062A282 /* 修改密码 */,
+			);
+			path = "个人";
+			sourceTree = "<group>";
+		};
+		41BD02F424EA66FD0003CD18 /* 薪资管理 */ = {
+			isa = PBXGroup;
+			children = (
+				419375C72500EFAF0062A282 /* 薪资管理 */,
+			);
+			path = "薪资管理";
+			sourceTree = "<group>";
+		};
+		41BD02FE24EAAEC90003CD18 /* 登陆页面 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD02FF24EAAEF10003CD18 /* RegisterViewController.h */,
+				41BD030024EAAEF10003CD18 /* RegisterViewController.m */,
+			);
+			path = "登陆页面";
+			sourceTree = "<group>";
+		};
+		41BD030224EACC0B0003CD18 /* 人员信息 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD030724EACCD30003CD18 /* PersonalInfoViewController.h */,
+				41BD030824EACCD30003CD18 /* PersonalInfoViewController.m */,
+			);
+			path = "人员信息";
+			sourceTree = "<group>";
+		};
+		41BD030324EACC250003CD18 /* 工资详情 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD030424EACC660003CD18 /* SalaryDetailViewController.h */,
+				41BD030524EACC660003CD18 /* SalaryDetailViewController.m */,
+			);
+			path = "工资详情";
+			sourceTree = "<group>";
+		};
+		41D21AF424FD66910040F805 /* 人员信息修改 */ = {
+			isa = PBXGroup;
+			children = (
+				41D21AF524FD67BE0040F805 /* ModificationInfoViewController.h */,
+				41D21AF624FD67BE0040F805 /* ModificationInfoViewController.m */,
+			);
+			path = "人员信息修改";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +424,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414DFA2624ED494100B40228 /* CustomCell.xib in Resources */,
 				41BD02CD24EA3CCA0003CD18 /* LaunchScreen.storyboard in Resources */,
 				41BD02CA24EA3CCA0003CD18 /* Assets.xcassets in Resources */,
+				414DFA2424ED491400B40228 /* YGViewController.xib in Resources */,
 				41BD02C524EA3CC90003CD18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,9 +454,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				41BD02D024EA3CCA0003CD18 /* main.m in Sources */,
+				414DFA4324ED551A00B40228 /* YGViewController.m in Sources */,
 				41BD02C224EA3CC90003CD18 /* ViewController.m in Sources */,
+				419375C42500BA8B0062A282 /* ModifyPasswordViewController.m in Sources */,
+				414DFA4924ED7E8300B40228 /* ListCell.m in Sources */,
+				41BD030924EACCD30003CD18 /* PersonalInfoViewController.m in Sources */,
 				41BD02C824EA3CC90003CD18 /* SalaryMS.xcdatamodeld in Sources */,
+				414DFA4A24ED7E8300B40228 /* ListView.m in Sources */,
+				41BD030624EACC660003CD18 /* SalaryDetailViewController.m in Sources */,
+				41BD02FA24EA68320003CD18 /* PersonViewController.m in Sources */,
+				41BD030124EAAEF10003CD18 /* RegisterViewController.m in Sources */,
+				41D21AF724FD67BF0040F805 /* ModificationInfoViewController.m in Sources */,
+				41BD02FD24EA68530003CD18 /* SalaryViewController.m in Sources */,
 				41BD02BC24EA3CC90003CD18 /* AppDelegate.m in Sources */,
+				41BD02F724EA675A0003CD18 /* TabBarViewController.m in Sources */,
 				41BD02BF24EA3CC90003CD18 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +504,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		414DFA2224ED491300B40228 /* YGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414DFA2324ED491300B40228 /* en */,
+			);
+			name = YGViewController.xib;
+			sourceTree = "<group>";
+		};
 		41BD02C324EA3CC90003CD18 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,6 +648,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D32G3GD2XX;
 				INFOPLIST_FILE = SalaryMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +666,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D32G3GD2XX;
 				INFOPLIST_FILE = SalaryMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

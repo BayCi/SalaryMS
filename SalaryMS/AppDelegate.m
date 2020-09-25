@@ -7,16 +7,25 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RegisterViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+#define ScreenHeight [[UIScreen mainScreen]bounds].size.height
+#define ScreenWidth [[UIScreen mainScreen]bounds].size.width
+@synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    AppDelegate *myDelegate = (AppDelegate*)[[UIApplication sharedApplication]delegate];
+    if (ScreenHeight > 480) {
+        myDelegate.autoSizeScaleX = ScreenWidth;
+        myDelegate.autoSizeScaleX = ScreenHeight;
+    }else{
+        myDelegate.autoSizeScaleX = 1.0;
+        myDelegate.autoSizeScaleX = 1.0;
+    }
     return YES;
 }
 
