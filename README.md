@@ -1,5 +1,5 @@
 # SalaryMS
-一个员工薪资管理系统的app demo/br
+一个员工薪资管理系统的app demo
 ![image](https://github.com/BayCi/SalaryMS/blob/master/SalaryMS测评.gif)
 ![image](https://github.com/BayCi/SalaryMS/blob/master/页面1.png)
 ![image](https://github.com/BayCi/SalaryMS/blob/master/页面2.png)
