@@ -21,16 +21,6 @@
 
 double currentMainScreenWidth = 0;//记录当前屏幕尺寸的宽度
 
-CG_INLINE CGRect TS_CGRectMake(CGFloat x , CGFloat y, CGFloat width, CGFloat height){
-    AppDelegate *myDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
-    CGRect rect;
-    rect.origin.x = x * myDelegate.autoSizeScaleX;
-    rect.origin.y = y * myDelegate.autoSizeScaleY;
-    rect.size.width = width * myDelegate.autoSizeScaleX;
-    rect.size.height = height * myDelegate.autoSizeScaleY;
-    return rect;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     //数据库初始化
@@ -47,48 +37,48 @@ CG_INLINE CGRect TS_CGRectMake(CGFloat x , CGFloat y, CGFloat width, CGFloat hei
     backgroundView.image = [UIImage imageNamed:@"background.png"];
     [self.view addSubview:backgroundView];
     
-    UILabel *title1 = [[UILabel alloc]init];
-    //WithFrame:CGRectMake(50, 100, 275, 30)
+    UILabel *title1 = [[UILabel alloc]initWithFrame:CGRectMake(50, 100, 275, 30)];
+    //
     title1.textColor = [UIColor blackColor];
     title1.text = @"新 型 有 限 公 司";
     [title1 setFont:[UIFont systemFontOfSize:35]];
-    title1.translatesAutoresizingMaskIntoConstraints = NO;
+    //title1.translatesAutoresizingMaskIntoConstraints = NO;
     
-    UILabel *title2 = [[UILabel alloc]init];
-    //WithFrame:CGRectMake(125, 180, 200, 30)
+    UILabel *title2 = [[UILabel alloc]initWithFrame:CGRectMake(125, 180, 200, 30)];
+    //
     title2.textColor = [UIColor blackColor];
     title2.text = @" 员 工 薪 资";
     [title2 setFont:[UIFont systemFontOfSize:35]];
-    title2.translatesAutoresizingMaskIntoConstraints = NO;
+    //title2.translatesAutoresizingMaskIntoConstraints = NO;
     
-    UILabel *title3 = [[UILabel alloc]init];
-    //WithFrame:CGRectMake(125, 260, 200, 30)
+    UILabel *title3 = [[UILabel alloc]initWithFrame:CGRectMake(125, 260, 200, 30)];
+    //
     title3.textColor = [UIColor blackColor];
     title3.text = @" 管 理 系 统";
     [title3 setFont:[UIFont systemFontOfSize:35]];
-    title3.translatesAutoresizingMaskIntoConstraints = NO;
+    //title3.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:title1];
     [self.view addSubview:title2];
     [self.view addSubview:title3];
     
-    UILabel *username = [[UILabel alloc]init];
-    //WithFrame:CGRectMake(50, 380, 80, 30)
+    UILabel *username = [[UILabel alloc]initWithFrame:CGRectMake(50, 380, 80, 30)];
+    //
     username.textColor = [UIColor blackColor];
     username.text = @"用户名";
     [username setFont:[UIFont systemFontOfSize:20]];
-    username.translatesAutoresizingMaskIntoConstraints = NO;
+    //username.translatesAutoresizingMaskIntoConstraints = NO;
     
-    UILabel *password = [[UILabel alloc]init];
-    //WithFrame:CGRectMake(50, 450, 50, 30)
+    UILabel *password = [[UILabel alloc]initWithFrame:CGRectMake(50, 450, 50, 30)];
+    //
     password.textColor = [UIColor blackColor];
     password.text = @"密码";
     [password setFont:[UIFont systemFontOfSize:20]];
-    password.translatesAutoresizingMaskIntoConstraints = NO;
+    //password.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:username];
     [self.view addSubview:password];
     
-    inputName = [[UITextField alloc]init];
-    //WithFrame:CGRectMake(140, 380, 185, 30)
+    inputName = [[UITextField alloc]initWithFrame:CGRectMake(140, 380, 185, 30)];
+    //
     inputName.textColor = [UIColor blackColor];
     [inputName setDelegate:self];
     inputName.clearButtonMode = UITextFieldViewModeAlways;
@@ -100,10 +90,10 @@ CG_INLINE CGRect TS_CGRectMake(CGFloat x , CGFloat y, CGFloat width, CGFloat hei
                     NSFontAttributeName:inputName.font }];
 
     inputName.attributedPlaceholder = attrNameString;
-    inputName.translatesAutoresizingMaskIntoConstraints = NO;
+    //inputName.translatesAutoresizingMaskIntoConstraints = NO;
     
-    inputPassword = [[UITextField alloc]init];
-    //WithFrame:CGRectMake(140, 450, 185, 30)
+    inputPassword = [[UITextField alloc]initWithFrame:CGRectMake(140, 450, 185, 30)];
+    //
     [inputPassword setDelegate:self];
     inputPassword.clearButtonMode = UITextFieldViewModeAlways;
     //inputPassword.placeholder = @"请输入密码";
@@ -115,78 +105,32 @@ CG_INLINE CGRect TS_CGRectMake(CGFloat x , CGFloat y, CGFloat width, CGFloat hei
     inputPassword.attributedPlaceholder = attrPasswordString;
     inputPassword.textColor = [UIColor blackColor];
     inputPassword.secureTextEntry = YES;
-    inputPassword.translatesAutoresizingMaskIntoConstraints = NO;
+    //inputPassword.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:inputName];
     [self.view addSubview:inputPassword];
     
     UIButton *Register = [UIButton buttonWithType:(UIButtonTypeRoundedRect)];
     Register.layer.cornerRadius = 8.0;
     [Register.layer setBorderWidth:2.0];//设置按钮的边界宽度
-    //Register.frame = CGRectMake(127.5, 542, 120, 40);
+    Register.frame = CGRectMake(127.5, 542, 120, 40);
     [Register setTitle:@"登陆" forState:(UIControlStateNormal)];
     [Register setTitleColor:[UIColor blackColor] forState:(UIControlStateNormal)];
     //[Register setBackgroundColor:[UIColor yellowColor]];
     [Register setTintColor:[UIColor blackColor]];
     Register.layer.borderColor = [UIColor blackColor].CGColor;//设置按钮的边界颜色
-    Register.translatesAutoresizingMaskIntoConstraints = NO;
+    //Register.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:Register];
     [Register addTarget:self action:@selector(register_click) forControlEvents:(UIControlEventTouchUpInside)];
     
-//    [NSLayoutConstraint activateConstraints:@[
-//        [NSLayoutConstraint constraintWithItem:Register
-//                                     attribute:NSLayoutAttributeCenterX
-//                                     relatedBy:NSLayoutRelationEqual
-//                                        toItem:self
-//                                     attribute:(NSLayoutAttributeCenterX)
-//                                    multiplier:1
-//                                      constant:0],
-//        [NSLayoutConstraint constraintWithItem:Register
-//                                       attribute:NSLayoutAttributeLeft
-//                                       relatedBy:NSLayoutRelationEqual
-//                                          toItem:self
-//                                       attribute:(NSLayoutAttributeLeft)
-//                                      multiplier:1
-//                                        constant:100],
-//        [NSLayoutConstraint constraintWithItem:Register
-//                                         attribute:(NSLayoutAttributeWidth)
-//                                         relatedBy:NSLayoutRelationEqual
-//                                            toItem:nil
-//                                         attribute:(NSLayoutAttributeNotAnAttribute)
-//                                        multiplier:1
-//                                          constant:120],
-//        [NSLayoutConstraint constraintWithItem:Register
-//                                           attribute:(NSLayoutAttributeHeight)
-//                                           relatedBy:NSLayoutRelationEqual
-//                                              toItem:nil
-//                                           attribute:NSLayoutAttributeNotAnAttribute
-//                                          multiplier:1
-//                                            constant:50],
+//    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(>=150)-[username]-10-[inputName]-(>=50)-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:NSDictionaryOfVariableBindings(username,inputName)]];
+//    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(>=150)-[password]-30-[inputPassword]-(>=50)-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:NSDictionaryOfVariableBindings(password,inputPassword)]];
+//    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(350)-[Register(120)]-(>=50)-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:NSDictionaryOfVariableBindings(Register)]];
 //
-//    ]];
-    
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(>=150)-[username]-10-[inputName]-(>=50)-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:NSDictionaryOfVariableBindings(username,inputName)]];
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(>=150)-[password]-30-[inputPassword]-(>=50)-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:NSDictionaryOfVariableBindings(password,inputPassword)]];
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(350)-[Register(120)]-(>=50)-|" options:NSLayoutFormatAlignAllCenterY metrics:nil views:NSDictionaryOfVariableBindings(Register)]];
-    
-//[NSLayoutConstraint constraintWithItem:inputName
-//                                     attribute:(NSLayoutAttributeHeight)
-//                                     relatedBy:NSLayoutRelationEqual
-//                                        toItem:username
-//                                     attribute:NSLayoutAttributeNotAnAttribute
-//                                    multiplier:1
-//                                      constant:10],
-//[NSLayoutConstraint constraintWithItem:inputPassword
-//                                       attribute:(NSLayoutAttributeHeight)
-//                                       relatedBy:NSLayoutRelationEqual
-//                                          toItem:password
-//                                       attribute:NSLayoutAttributeNotAnAttribute
-//                                      multiplier:1
-//                                        constant:40]
-    
-    NSString *vflStringV = @"V:|-(>=50,<=150)-[title1(>=30,<=40)]-50-[title2(>=30,<=40)]-50-[title3(>=30,<=40)]-(>=50,<=150)-[inputName(>=30,<=40)]-50-[inputPassword(>=30,<=40)]-60-[Register(40)]-(>=50)-|";
-    //NSString *vflStringH = @"|-(>=50)-[username]-10-[inputName(>=30,<=40)]-(>=50)-|";
-    
-    [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:vflStringV options:NSLayoutFormatAlignAllCenterX metrics:nil views:NSDictionaryOfVariableBindings(title1,title2,title3,username,password,inputName,inputPassword,Register)]];
+//
+//    NSString *vflStringV = @"V:|-(>=50,<=150)-[title1(>=30,<=40)]-50-[title2(>=30,<=40)]-50-[title3(>=30,<=40)]-(>=50,<=150)-[inputName(>=30,<=40)]-50-[inputPassword(>=30,<=40)]-60-[Register(40)]-(>=50)-|";
+//    //NSString *vflStringH = @"|-(>=50)-[username]-10-[inputName(>=30,<=40)]-(>=50)-|";
+//
+//    [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:vflStringV options:NSLayoutFormatAlignAllCenterX metrics:nil views:NSDictionaryOfVariableBindings(title1,title2,title3,username,password,inputName,inputPassword,Register)]];
     
     //@"H:[Register(120)]"
 }
@@ -369,26 +313,26 @@ CG_INLINE CGRect TS_CGRectMake(CGFloat x , CGFloat y, CGFloat width, CGFloat hei
 
 }
 
-- (void)textFieldDidBeginEditing:(UITextField *)textField{
-    [self animateTextField:textField up:YES];
-}
+//- (void)textFieldDidBeginEditing:(UITextField *)textField{
+//    [self animateTextField:textField up:YES];
+//}
+//
+//- (void)textFieldDidEndEditing:(UITextField *)textField{
+//    [self animateTextField:textField up:NO];
+//}
 
-- (void)textFieldDidEndEditing:(UITextField *)textField{
-    [self animateTextField:textField up:NO];
-}
-
--(void)animateTextField:(UITextField*)textField up:(BOOL)up
-{
-    int movementDistance = -90; // tweak as needed
-    float movementDuration = 0.3f; // tweak as needed
-    int movement = (up ? movementDistance : -movementDistance);
-    [UIView beginAnimations: @"animateTextField" context: nil];
-    [UIView setAnimationBeginsFromCurrentState: YES];
-    [UIView setAnimationDuration: movementDuration];
-    self.view.frame = CGRectOffset(self.view.frame, 0, movement);
-    [UIView commitAnimations];
-
-}
+//-(void)animateTextField:(UITextField*)textField up:(BOOL)up
+//{
+//    int movementDistance = -90; // tweak as needed
+//    float movementDuration = 0.3f; // tweak as needed
+//    int movement = (up ? movementDistance : -movementDistance);
+//    [UIView beginAnimations: @"animateTextField" context: nil];
+//    [UIView setAnimationBeginsFromCurrentState: YES];
+//    [UIView setAnimationDuration: movementDuration];
+//    self.view.frame = CGRectOffset(self.view.frame, 0, movement);
+//    [UIView commitAnimations];
+//
+//}
 
 - (UIColor *)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha {//十六进制色号自定义颜色
     hexString = [hexString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
