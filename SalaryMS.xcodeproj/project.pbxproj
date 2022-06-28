@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		414ECB8F24EF54F200AF1A54 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 414ECB8E24EF54F200AF1A54 /* libsqlite3.0.tbd */; };
+		414ECB9124EF550000AF1A54 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 414ECB9024EF550000AF1A54 /* libsqlite3.tbd */; };
+		419375C42500BA8B0062A282 /* ModifyPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 419375C32500BA8B0062A282 /* ModifyPasswordViewController.m */; };
+		41BD02BC24EA3CC90003CD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02BB24EA3CC90003CD18 /* AppDelegate.m */; };
+		41BD02BF24EA3CC90003CD18 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02BE24EA3CC90003CD18 /* SceneDelegate.m */; };
+		41BD02C224EA3CC90003CD18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02C124EA3CC90003CD18 /* ViewController.m */; };
+		41BD02C524EA3CC90003CD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BD02C324EA3CC90003CD18 /* Main.storyboard */; };
+		41BD02C824EA3CC90003CD18 /* SalaryMS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02C624EA3CC90003CD18 /* SalaryMS.xcdatamodeld */; };
+		41BD02CA24EA3CCA0003CD18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BD02C924EA3CCA0003CD18 /* Assets.xcassets */; };
+		41BD02CD24EA3CCA0003CD18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BD02CB24EA3CCA0003CD18 /* LaunchScreen.storyboard */; };
+		41BD02D024EA3CCA0003CD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02CF24EA3CCA0003CD18 /* main.m */; };
+		41BD02DA24EA3CCB0003CD18 /* SalaryMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02D924EA3CCB0003CD18 /* SalaryMSTests.m */; };
+		41BD02E524EA3CCB0003CD18 /* SalaryMSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02E424EA3CCB0003CD18 /* SalaryMSUITests.m */; };
+		41BD02F724EA675A0003CD18 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02F624EA675A0003CD18 /* TabBarViewController.m */; };
+		41BD02FA24EA68320003CD18 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02F924EA68320003CD18 /* PersonViewController.m */; };
+		41BD02FD24EA68530003CD18 /* SalaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD02FC24EA68530003CD18 /* SalaryViewController.m */; };
+		41BD030124EAAEF10003CD18 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD030024EAAEF10003CD18 /* RegisterViewController.m */; };
+		41BD030624EACC660003CD18 /* SalaryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD030524EACC660003CD18 /* SalaryDetailViewController.m */; };
+		41BD030924EACCD30003CD18 /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BD030824EACCD30003CD18 /* PersonalInfoViewController.m */; };
+		41D21AF724FD67BF0040F805 /* ModificationInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D21AF624FD67BE0040F805 /* ModificationInfoViewController.m */; };
+		E0782C032843A327005AB2AD /* YGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0782BFF2843A327005AB2AD /* YGViewController.m */; };
+		E0782C042843A327005AB2AD /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0782C002843A327005AB2AD /* CustomCell.xib */; };
+		E0782C052843A327005AB2AD /* YGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0782C022843A327005AB2AD /* YGViewController.xib */; };
+		E0782C0A2843A34C005AB2AD /* ListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0782C062843A34C005AB2AD /* ListView.m */; };
+		E0782C0B2843A34C005AB2AD /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0782C082843A34C005AB2AD /* ListCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41BD02D624EA3CCB0003CD18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41BD02AF24EA3CC90003CD18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41BD02B624EA3CC90003CD18;
+			remoteInfo = SalaryMS;
+		};
+		41BD02E124EA3CCB0003CD18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41BD02AF24EA3CC90003CD18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41BD02B624EA3CC90003CD18;
+			remoteInfo = SalaryMS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		414ECB8E24EF54F200AF1A54 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		414ECB9024EF550000AF1A54 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		419375C22500BA8B0062A282 /* ModifyPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModifyPasswordViewController.h; sourceTree = "<group>"; };
+		419375C32500BA8B0062A282 /* ModifyPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModifyPasswordViewController.m; sourceTree = "<group>"; };
+		41BD02B724EA3CC90003CD18 /* SalaryMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalaryMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BD02BA24EA3CC90003CD18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41BD02BB24EA3CC90003CD18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41BD02BD24EA3CC90003CD18 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		41BD02BE24EA3CC90003CD18 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		41BD02C024EA3CC90003CD18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41BD02C124EA3CC90003CD18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41BD02C424EA3CC90003CD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41BD02C724EA3CC90003CD18 /* SalaryMS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SalaryMS.xcdatamodel; sourceTree = "<group>"; };
+		41BD02C924EA3CCA0003CD18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41BD02CC24EA3CCA0003CD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41BD02CE24EA3CCA0003CD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BD02CF24EA3CCA0003CD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41BD02D524EA3CCB0003CD18 /* SalaryMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalaryMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BD02D924EA3CCB0003CD18 /* SalaryMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalaryMSTests.m; sourceTree = "<group>"; };
+		41BD02DB24EA3CCB0003CD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BD02E024EA3CCB0003CD18 /* SalaryMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalaryMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BD02E424EA3CCB0003CD18 /* SalaryMSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalaryMSUITests.m; sourceTree = "<group>"; };
+		41BD02E624EA3CCB0003CD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BD02F524EA675A0003CD18 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		41BD02F624EA675A0003CD18 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		41BD02F824EA68320003CD18 /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		41BD02F924EA68320003CD18 /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		41BD02FB24EA68530003CD18 /* SalaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalaryViewController.h; sourceTree = "<group>"; };
+		41BD02FC24EA68530003CD18 /* SalaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalaryViewController.m; sourceTree = "<group>"; };
+		41BD02FF24EAAEF10003CD18 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		41BD030024EAAEF10003CD18 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		41BD030424EACC660003CD18 /* SalaryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SalaryDetailViewController.h; sourceTree = "<group>"; };
+		41BD030524EACC660003CD18 /* SalaryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SalaryDetailViewController.m; sourceTree = "<group>"; };
+		41BD030724EACCD30003CD18 /* PersonalInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
+		41BD030824EACCD30003CD18 /* PersonalInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
+		41D21AF524FD67BE0040F805 /* ModificationInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModificationInfoViewController.h; sourceTree = "<group>"; };
+		41D21AF624FD67BE0040F805 /* ModificationInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModificationInfoViewController.m; sourceTree = "<group>"; };
+		E0782BFF2843A327005AB2AD /* YGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGViewController.m; sourceTree = "<group>"; };
+		E0782C002843A327005AB2AD /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		E0782C012843A327005AB2AD /* YGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGViewController.h; sourceTree = "<group>"; };
+		E0782C022843A327005AB2AD /* YGViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YGViewController.xib; sourceTree = "<group>"; };
+		E0782C062843A34C005AB2AD /* ListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListView.m; sourceTree = "<group>"; };
+		E0782C072843A34C005AB2AD /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		E0782C082843A34C005AB2AD /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		E0782C092843A34C005AB2AD /* ListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41BD02B424EA3CC90003CD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414ECB9124EF550000AF1A54 /* libsqlite3.tbd in Frameworks */,
+				414ECB8F24EF54F200AF1A54 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BD02D224EA3CCB0003CD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BD02DD24EA3CCB0003CD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		414DFA4424ED7E5500B40228 /* 自定义下拉框 */ = {
+			isa = PBXGroup;
+			children = (
+				E0782C072843A34C005AB2AD /* ListCell.h */,
+				E0782C082843A34C005AB2AD /* ListCell.m */,
+				E0782C092843A34C005AB2AD /* ListView.h */,
+				E0782C062843A34C005AB2AD /* ListView.m */,
+			);
+			path = "自定义下拉框";
+			sourceTree = "<group>";
+		};
+		414ECB8D24EF54F200AF1A54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				414ECB9024EF550000AF1A54 /* libsqlite3.tbd */,
+				414ECB8E24EF54F200AF1A54 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		415CBD0024EC146B0094E974 /* 查询 */ = {
+			isa = PBXGroup;
+			children = (
+				E0782C002843A327005AB2AD /* CustomCell.xib */,
+				E0782C012843A327005AB2AD /* YGViewController.h */,
+				E0782BFF2843A327005AB2AD /* YGViewController.m */,
+				E0782C022843A327005AB2AD /* YGViewController.xib */,
+			);
+			path = "查询";
+			sourceTree = "<group>";
+		};
+		419375C12500B11E0062A282 /* 修改密码 */ = {
+			isa = PBXGroup;
+			children = (
+				419375C22500BA8B0062A282 /* ModifyPasswordViewController.h */,
+				419375C32500BA8B0062A282 /* ModifyPasswordViewController.m */,
+			);
+			path = "修改密码";
+			sourceTree = "<group>";
+		};
+		419375C62500EF8A0062A282 /* 个人 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD02F824EA68320003CD18 /* PersonViewController.h */,
+				41BD02F924EA68320003CD18 /* PersonViewController.m */,
+			);
+			path = "个人";
+			sourceTree = "<group>";
+		};
+		419375C72500EFAF0062A282 /* 薪资管理 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD02FB24EA68530003CD18 /* SalaryViewController.h */,
+				41BD02FC24EA68530003CD18 /* SalaryViewController.m */,
+			);
+			path = "薪资管理";
+			sourceTree = "<group>";
+		};
+		419375C92500EFDD0062A282 /* 新增员工 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD030224EACC0B0003CD18 /* 人员信息 */,
+				41BD030324EACC250003CD18 /* 工资详情 */,
+			);
+			path = "新增员工";
+			sourceTree = "<group>";
+		};
+		41BD02AE24EA3CC90003CD18 = {
+			isa = PBXGroup;
+			children = (
+				41BD02B924EA3CC90003CD18 /* SalaryMS */,
+				41BD02D824EA3CCB0003CD18 /* SalaryMSTests */,
+				41BD02E324EA3CCB0003CD18 /* SalaryMSUITests */,
+				41BD02B824EA3CC90003CD18 /* Products */,
+				414ECB8D24EF54F200AF1A54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41BD02B824EA3CC90003CD18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41BD02B724EA3CC90003CD18 /* SalaryMS.app */,
+				41BD02D524EA3CCB0003CD18 /* SalaryMSTests.xctest */,
+				41BD02E024EA3CCB0003CD18 /* SalaryMSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41BD02B924EA3CC90003CD18 /* SalaryMS */ = {
+			isa = PBXGroup;
+			children = (
+				419375C92500EFDD0062A282 /* 新增员工 */,
+				41D21AF424FD66910040F805 /* 人员信息修改 */,
+				415CBD0024EC146B0094E974 /* 查询 */,
+				414DFA4424ED7E5500B40228 /* 自定义下拉框 */,
+				41BD02FE24EAAEC90003CD18 /* 登陆页面 */,
+				41BD02F424EA66FD0003CD18 /* 薪资管理 */,
+				41BD02F324EA66EE0003CD18 /* 个人 */,
+				41BD02F224EA66AA0003CD18 /* 分栏器 */,
+				41BD02BA24EA3CC90003CD18 /* AppDelegate.h */,
+				41BD02BB24EA3CC90003CD18 /* AppDelegate.m */,
+				41BD02BD24EA3CC90003CD18 /* SceneDelegate.h */,
+				41BD02BE24EA3CC90003CD18 /* SceneDelegate.m */,
+				41BD02C024EA3CC90003CD18 /* ViewController.h */,
+				41BD02C124EA3CC90003CD18 /* ViewController.m */,
+				41BD02C324EA3CC90003CD18 /* Main.storyboard */,
+				41BD02C924EA3CCA0003CD18 /* Assets.xcassets */,
+				41BD02CB24EA3CCA0003CD18 /* LaunchScreen.storyboard */,
+				41BD02CE24EA3CCA0003CD18 /* Info.plist */,
+				41BD02CF24EA3CCA0003CD18 /* main.m */,
+				41BD02C624EA3CC90003CD18 /* SalaryMS.xcdatamodeld */,
+			);
+			path = SalaryMS;
+			sourceTree = "<group>";
+		};
+		41BD02D824EA3CCB0003CD18 /* SalaryMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				41BD02D924EA3CCB0003CD18 /* SalaryMSTests.m */,
+				41BD02DB24EA3CCB0003CD18 /* Info.plist */,
+			);
+			path = SalaryMSTests;
+			sourceTree = "<group>";
+		};
+		41BD02E324EA3CCB0003CD18 /* SalaryMSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41BD02E424EA3CCB0003CD18 /* SalaryMSUITests.m */,
+				41BD02E624EA3CCB0003CD18 /* Info.plist */,
+			);
+			path = SalaryMSUITests;
+			sourceTree = "<group>";
+		};
+		41BD02F224EA66AA0003CD18 /* 分栏器 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD02F524EA675A0003CD18 /* TabBarViewController.h */,
+				41BD02F624EA675A0003CD18 /* TabBarViewController.m */,
+			);
+			path = "分栏器";
+			sourceTree = "<group>";
+		};
+		41BD02F324EA66EE0003CD18 /* 个人 */ = {
+			isa = PBXGroup;
+			children = (
+				419375C62500EF8A0062A282 /* 个人 */,
+				419375C12500B11E0062A282 /* 修改密码 */,
+			);
+			path = "个人";
+			sourceTree = "<group>";
+		};
+		41BD02F424EA66FD0003CD18 /* 薪资管理 */ = {
+			isa = PBXGroup;
+			children = (
+				419375C72500EFAF0062A282 /* 薪资管理 */,
+			);
+			path = "薪资管理";
+			sourceTree = "<group>";
+		};
+		41BD02FE24EAAEC90003CD18 /* 登陆页面 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD02FF24EAAEF10003CD18 /* RegisterViewController.h */,
+				41BD030024EAAEF10003CD18 /* RegisterViewController.m */,
+			);
+			path = "登陆页面";
+			sourceTree = "<group>";
+		};
+		41BD030224EACC0B0003CD18 /* 人员信息 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD030724EACCD30003CD18 /* PersonalInfoViewController.h */,
+				41BD030824EACCD30003CD18 /* PersonalInfoViewController.m */,
+			);
+			path = "人员信息";
+			sourceTree = "<group>";
+		};
+		41BD030324EACC250003CD18 /* 工资详情 */ = {
+			isa = PBXGroup;
+			children = (
+				41BD030424EACC660003CD18 /* SalaryDetailViewController.h */,
+				41BD030524EACC660003CD18 /* SalaryDetailViewController.m */,
+			);
+			path = "工资详情";
+			sourceTree = "<group>";
+		};
+		41D21AF424FD66910040F805 /* 人员信息修改 */ = {
+			isa = PBXGroup;
+			children = (
+				41D21AF524FD67BE0040F805 /* ModificationInfoViewController.h */,
+				41D21AF624FD67BE0040F805 /* ModificationInfoViewController.m */,
+			);
+			path = "人员信息修改";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41BD02B624EA3CC90003CD18 /* SalaryMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BD02E924EA3CCB0003CD18 /* Build configuration list for PBXNativeTarget "SalaryMS" */;
+			buildPhases = (
+				41BD02B324EA3CC90003CD18 /* Sources */,
+				41BD02B424EA3CC90003CD18 /* Frameworks */,
+				41BD02B524EA3CC90003CD18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalaryMS;
+			productName = SalaryMS;
+			productReference = 41BD02B724EA3CC90003CD18 /* SalaryMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41BD02D424EA3CCB0003CD18 /* SalaryMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BD02EC24EA3CCB0003CD18 /* Build configuration list for PBXNativeTarget "SalaryMSTests" */;
+			buildPhases = (
+				41BD02D124EA3CCB0003CD18 /* Sources */,
+				41BD02D224EA3CCB0003CD18 /* Frameworks */,
+				41BD02D324EA3CCB0003CD18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41BD02D724EA3CCB0003CD18 /* PBXTargetDependency */,
+			);
+			name = SalaryMSTests;
+			productName = SalaryMSTests;
+			productReference = 41BD02D524EA3CCB0003CD18 /* SalaryMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41BD02DF24EA3CCB0003CD18 /* SalaryMSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BD02EF24EA3CCB0003CD18 /* Build configuration list for PBXNativeTarget "SalaryMSUITests" */;
+			buildPhases = (
+				41BD02DC24EA3CCB0003CD18 /* Sources */,
+				41BD02DD24EA3CCB0003CD18 /* Frameworks */,
+				41BD02DE24EA3CCB0003CD18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41BD02E224EA3CCB0003CD18 /* PBXTargetDependency */,
+			);
+			name = SalaryMSUITests;
+			productName = SalaryMSUITests;
+			productReference = 41BD02E024EA3CCB0003CD18 /* SalaryMSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41BD02AF24EA3CC90003CD18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Apple lnc.";
+				TargetAttributes = {
+					41BD02B624EA3CC90003CD18 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					41BD02D424EA3CCB0003CD18 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 41BD02B624EA3CC90003CD18;
+					};
+					41BD02DF24EA3CCB0003CD18 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 41BD02B624EA3CC90003CD18;
+					};
+				};
+			};
+			buildConfigurationList = 41BD02B224EA3CC90003CD18 /* Build configuration list for PBXProject "SalaryMS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41BD02AE24EA3CC90003CD18;
+			productRefGroup = 41BD02B824EA3CC90003CD18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41BD02B624EA3CC90003CD18 /* SalaryMS */,
+				41BD02D424EA3CCB0003CD18 /* SalaryMSTests */,
+				41BD02DF24EA3CCB0003CD18 /* SalaryMSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41BD02B524EA3CC90003CD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BD02CD24EA3CCA0003CD18 /* LaunchScreen.storyboard in Resources */,
+				41BD02CA24EA3CCA0003CD18 /* Assets.xcassets in Resources */,
+				E0782C052843A327005AB2AD /* YGViewController.xib in Resources */,
+				E0782C042843A327005AB2AD /* CustomCell.xib in Resources */,
+				41BD02C524EA3CC90003CD18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BD02D324EA3CCB0003CD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BD02DE24EA3CCB0003CD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41BD02B324EA3CC90003CD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BD02D024EA3CCA0003CD18 /* main.m in Sources */,
+				E0782C0B2843A34C005AB2AD /* ListCell.m in Sources */,
+				41BD02C224EA3CC90003CD18 /* ViewController.m in Sources */,
+				419375C42500BA8B0062A282 /* ModifyPasswordViewController.m in Sources */,
+				41BD030924EACCD30003CD18 /* PersonalInfoViewController.m in Sources */,
+				41BD02C824EA3CC90003CD18 /* SalaryMS.xcdatamodeld in Sources */,
+				41BD030624EACC660003CD18 /* SalaryDetailViewController.m in Sources */,
+				41BD02FA24EA68320003CD18 /* PersonViewController.m in Sources */,
+				41BD030124EAAEF10003CD18 /* RegisterViewController.m in Sources */,
+				41D21AF724FD67BF0040F805 /* ModificationInfoViewController.m in Sources */,
+				41BD02FD24EA68530003CD18 /* SalaryViewController.m in Sources */,
+				E0782C032843A327005AB2AD /* YGViewController.m in Sources */,
+				41BD02BC24EA3CC90003CD18 /* AppDelegate.m in Sources */,
+				41BD02F724EA675A0003CD18 /* TabBarViewController.m in Sources */,
+				E0782C0A2843A34C005AB2AD /* ListView.m in Sources */,
+				41BD02BF24EA3CC90003CD18 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BD02D124EA3CCB0003CD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BD02DA24EA3CCB0003CD18 /* SalaryMSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41BD02DC24EA3CCB0003CD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BD02E524EA3CCB0003CD18 /* SalaryMSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41BD02D724EA3CCB0003CD18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41BD02B624EA3CC90003CD18 /* SalaryMS */;
+			targetProxy = 41BD02D624EA3CCB0003CD18 /* PBXContainerItemProxy */;
+		};
+		41BD02E224EA3CCB0003CD18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41BD02B624EA3CC90003CD18 /* SalaryMS */;
+			targetProxy = 41BD02E124EA3CCB0003CD18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41BD02C324EA3CC90003CD18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41BD02C424EA3CC90003CD18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41BD02CB24EA3CCA0003CD18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41BD02CC24EA3CCA0003CD18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41BD02E724EA3CCB0003CD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41BD02E824EA3CCB0003CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41BD02EA24EA3CCB0003CD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D32G3GD2XX;
+				INFOPLIST_FILE = SalaryMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SalaryMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41BD02EB24EA3CCB0003CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D32G3GD2XX;
+				INFOPLIST_FILE = SalaryMS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SalaryMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41BD02ED24EA3CCB0003CD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D32G3GD2XX;
+				INFOPLIST_FILE = SalaryMSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SalaryMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalaryMS.app/SalaryMS";
+			};
+			name = Debug;
+		};
+		41BD02EE24EA3CCB0003CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D32G3GD2XX;
+				INFOPLIST_FILE = SalaryMSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SalaryMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalaryMS.app/SalaryMS";
+			};
+			name = Release;
+		};
+		41BD02F024EA3CCB0003CD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D32G3GD2XX;
+				INFOPLIST_FILE = SalaryMSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SalaryMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SalaryMS;
+			};
+			name = Debug;
+		};
+		41BD02F124EA3CCB0003CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D32G3GD2XX;
+				INFOPLIST_FILE = SalaryMSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SalaryMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SalaryMS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41BD02B224EA3CC90003CD18 /* Build configuration list for PBXProject "SalaryMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BD02E724EA3CCB0003CD18 /* Debug */,
+				41BD02E824EA3CCB0003CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BD02E924EA3CCB0003CD18 /* Build configuration list for PBXNativeTarget "SalaryMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BD02EA24EA3CCB0003CD18 /* Debug */,
+				41BD02EB24EA3CCB0003CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BD02EC24EA3CCB0003CD18 /* Build configuration list for PBXNativeTarget "SalaryMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BD02ED24EA3CCB0003CD18 /* Debug */,
+				41BD02EE24EA3CCB0003CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BD02EF24EA3CCB0003CD18 /* Build configuration list for PBXNativeTarget "SalaryMSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BD02F024EA3CCB0003CD18 /* Debug */,
+				41BD02F124EA3CCB0003CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41BD02C624EA3CC90003CD18 /* SalaryMS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41BD02C724EA3CC90003CD18 /* SalaryMS.xcdatamodel */,
+			);
+			currentVersion = 41BD02C724EA3CC90003CD18 /* SalaryMS.xcdatamodel */;
+			path = SalaryMS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 41BD02AF24EA3CC90003CD18 /* Project object */;
+}
